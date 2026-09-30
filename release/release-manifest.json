@@ -1,0 +1,357 @@
+{
+  "version": "0.7.0",
+  "files": [
+    {
+      "path": "A/.gitignore",
+      "sha256": "270281d47b418e16facee6a594f16edaeb442021b312e38f543be81dd37afc23"
+    },
+    {
+      "path": "A/CHANGELOG.md",
+      "sha256": "a16577bc68ebf7899ff8db55e380413590094d5e5926168d60bee149b729cedb"
+    },
+    {
+      "path": "A/README.md",
+      "sha256": "b666972b8da9719e8ae0483b32a18171f0b298f051541ce7078445643f836802"
+    },
+    {
+      "path": "A/doc/adaptadores-y-medicion.md",
+      "sha256": "26f957b02363f89c8d6fc06dd59145e384aa600ee3e18b5c7b18c9dc91b0c6d7"
+    },
+    {
+      "path": "A/doc/flujo-proporcional.md",
+      "sha256": "9c4478b1312cde6fdbcccca7c273d813d78d4e31e6c1b5ad4ea609b0c1377d79"
+    },
+    {
+      "path": "A/doc/inicializate.md",
+      "sha256": "d83f2aeff7aeb0f29364d2551ab72722b00e9c6dc1aed2910e8f272b91903b9a"
+    },
+    {
+      "path": "A/doc/plantillas-cardenal.md",
+      "sha256": "7d1e8f537c6bcecc3cf6ea7cc47b5d7ade487c8ec39da5e45536c0bf6c740cfc"
+    },
+    {
+      "path": "A/package.json",
+      "sha256": "1d920e17fee173473ffbb4bd8aaa1780b37db1769aec4e0291ee8565296c3dd7"
+    },
+    {
+      "path": "A/release-manifest.json",
+      "sha256": "6928ea42979c34304fedd9ed120f104a15597d13f11d2081b3d1ad9ee3ce3b4c"
+    },
+    {
+      "path": "A/scripts/build-copy.mjs",
+      "sha256": "02ccf9d282cee58884251739a0f1448f61eeff3691a811418ce7b0ec995ee5f4"
+    },
+    {
+      "path": "A/scripts/verify-release.mjs",
+      "sha256": "042989248c2c8b45f91d2dfae232d5a10094ea25df20ede53b0a0201827d267f"
+    },
+    {
+      "path": "A/src/adapters.mjs",
+      "sha256": "bc5697e5dd22bf32bb1f89a3e1f058e01c4718eb73304a24fc03018008c8ff43"
+    },
+    {
+      "path": "A/src/cli.mjs",
+      "sha256": "7ce67f3c1369815d4f16f6231218b546747f85ab39a93ee05987d247133ecaad"
+    },
+    {
+      "path": "A/src/core.mjs",
+      "sha256": "2489dec0c54b933a07f607d4fd1797e0e7ba60b0caa4a9eb013fa7cbd0fb9ef0"
+    },
+    {
+      "path": "A/src/memory.mjs",
+      "sha256": "61c504ed807239600eb84e690b8ccbad434662a3aa2661c74e9fb4aedd9e8e3a"
+    },
+    {
+      "path": "A/src/onboarding.mjs",
+      "sha256": "5ab45a9777f9d3a5913774ede5f28675ea9915a086be640dae1efd05f18a1c6e"
+    },
+    {
+      "path": "A/src/team.mjs",
+      "sha256": "93f0716e3fe163c5655f5c9d019b19743c44be762beb3fcdb1e172753cea9982"
+    },
+    {
+      "path": "A/src/usage.mjs",
+      "sha256": "c004aecdb3576c6d7369c27d0d53224d1659eba04571a5e522e8081e60e03497"
+    },
+    {
+      "path": "A/templates/SKILL.md",
+      "sha256": "31493cbd5a53ea4ca6011b64a3c73d0b3687b55db7ad14c6ecc2a5b707d203b3"
+    },
+    {
+      "path": "A/templates/context-guide.md",
+      "sha256": "cbb335b4ea76605fed4624c2d62a14dc452b23d67597dd15a10459cce25638c9"
+    },
+    {
+      "path": "A/templates/feature.md",
+      "sha256": "d47ca3f213cd1309e004656ab249411f1a711932cee241881783bb04ef341dad"
+    },
+    {
+      "path": "A/templates/ficha-mvp-del-equipo.md",
+      "sha256": "b0fd8b8b39d9ae1fbd78850918b2c26c508c782e47aac466d30db820157ee7a5"
+    },
+    {
+      "path": "A/templates/inicializate.md",
+      "sha256": "1f1b14463cd97011a3f34f35128060926c90b12fc8216747a0efc22fd070e674"
+    },
+    {
+      "path": "A/templates/prompts/cierre.md",
+      "sha256": "75520b50c17535eeae7a47ddeca7b81625e625fe1d7853ecb5ac0c1fe19d070b"
+    },
+    {
+      "path": "A/templates/prompts/implementacion.md",
+      "sha256": "92ad50d5478354f64221b32f24dc037fc86c0d7bc114a5cd39bf1ceee3980565"
+    },
+    {
+      "path": "A/templates/prompts/relevamiento.md",
+      "sha256": "762462a1d26885367e1037ac9cea013e6651dc572896181d64171a307c7b63ac"
+    },
+    {
+      "path": "A/templates/prompts/repositorio.md",
+      "sha256": "d37d1cdcdaa7b4c6556cdd080c750a3b8ca69a22572779690047712eb6cd7234"
+    },
+    {
+      "path": "A/templates/prompts/seleccion-roles.md",
+      "sha256": "5d8e8ad1e269825f29d97be67aa2fe5849c32bd9a2c34345812935a0f071369e"
+    },
+    {
+      "path": "A/templates/prompts/verificacion.md",
+      "sha256": "19175680df291a881f747b5f230545bc6bc477816055aff5edc9536204a02bda"
+    },
+    {
+      "path": "A/templates/schemas/cardenal/schema.yaml",
+      "sha256": "62eb2a8bf7a2b95683121eb0e2dfbe0c9cb2ce0d9e57e4b5453c922291033630"
+    },
+    {
+      "path": "A/templates/schemas/cardenal/templates/design.md",
+      "sha256": "f2f9de72c881570614e4bcc52bd6838c6acc38f9c23274b6627961e2f3fd8a49"
+    },
+    {
+      "path": "A/templates/schemas/cardenal/templates/proposal.md",
+      "sha256": "04b5e71361eb9a55fdb93aad15b8c183f0f7607717fbf02bd2b07ad9a11998fc"
+    },
+    {
+      "path": "A/templates/schemas/cardenal/templates/spec.md",
+      "sha256": "e44aa66c2690fbdeb074087345e82e3f91c879357b79c83054bf54a706d6ff6f"
+    },
+    {
+      "path": "A/templates/schemas/cardenal/templates/tasks.md",
+      "sha256": "5f8829eed167a629169c30444d6412f5c7f657cf514927fb56a4ddcaac93fae2"
+    },
+    {
+      "path": "A/templates/team.md",
+      "sha256": "a054d2f96358e02abb2926c43722a49e5014691f33e366bf51acdbb64a439849"
+    },
+    {
+      "path": "A/test/cardenal.test.mjs",
+      "sha256": "1dc2381072bb39933b7690e37628d4b250402e6a3429ca7fb686a03e02f321ea"
+    },
+    {
+      "path": "A/test/distribution.test.mjs",
+      "sha256": "359efa5e167d3c49934b2d715d98e1eea75d996e49b6648a9d2741467f691807"
+    },
+    {
+      "path": "A/test/memory.test.mjs",
+      "sha256": "54a5dfb2480c80506e2106278dfd581d4ce31db01f84279db594a1f1951cd702"
+    },
+    {
+      "path": "A/test/onboarding-scope.test.mjs",
+      "sha256": "630b5ad8c1a7286e122071f5f0035a6580ba99e537c09775b497858196fd5f6a"
+    },
+    {
+      "path": "A/test/onboarding.test.mjs",
+      "sha256": "037a132b8605811fecd5d1ea6080c68da2404ac682c9b1511a29a0695a0615c7"
+    },
+    {
+      "path": "A/test/team.test.mjs",
+      "sha256": "f8e2c8bdade2975a784af1c219a58faacfc39be427f24e43bf0d22f379ac6762"
+    },
+    {
+      "path": "A/test/templates.test.mjs",
+      "sha256": "a1a8c63b917128441d9ebb6bb949b5b96ba333929db912d8f4aa81cf0998b3e7"
+    },
+    {
+      "path": "A/test/usage-adapters.test.mjs",
+      "sha256": "4175711dc58ef8e3c56fcaeea605635eedf3b04ac160d8051a9efc82b6c4f354"
+    },
+    {
+      "path": "B/.agents/skills/feature/SKILL.md",
+      "sha256": "d47ca3f213cd1309e004656ab249411f1a711932cee241881783bb04ef341dad"
+    },
+    {
+      "path": "B/.agents/skills/inicializate/SKILL.md",
+      "sha256": "1f1b14463cd97011a3f34f35128060926c90b12fc8216747a0efc22fd070e674"
+    },
+    {
+      "path": "B/.cardenal/README.md",
+      "sha256": "cbb335b4ea76605fed4624c2d62a14dc452b23d67597dd15a10459cce25638c9"
+    },
+    {
+      "path": "B/.cardenal/adapters.mjs",
+      "sha256": "bc5697e5dd22bf32bb1f89a3e1f058e01c4718eb73304a24fc03018008c8ff43"
+    },
+    {
+      "path": "B/.cardenal/cli.mjs",
+      "sha256": "7ce67f3c1369815d4f16f6231218b546747f85ab39a93ee05987d247133ecaad"
+    },
+    {
+      "path": "B/.cardenal/core.mjs",
+      "sha256": "2489dec0c54b933a07f607d4fd1797e0e7ba60b0caa4a9eb013fa7cbd0fb9ef0"
+    },
+    {
+      "path": "B/.cardenal/memory.mjs",
+      "sha256": "61c504ed807239600eb84e690b8ccbad434662a3aa2661c74e9fb4aedd9e8e3a"
+    },
+    {
+      "path": "B/.cardenal/onboarding.mjs",
+      "sha256": "5ab45a9777f9d3a5913774ede5f28675ea9915a086be640dae1efd05f18a1c6e"
+    },
+    {
+      "path": "B/.cardenal/prompts/cierre.md",
+      "sha256": "75520b50c17535eeae7a47ddeca7b81625e625fe1d7853ecb5ac0c1fe19d070b"
+    },
+    {
+      "path": "B/.cardenal/prompts/implementacion.md",
+      "sha256": "92ad50d5478354f64221b32f24dc037fc86c0d7bc114a5cd39bf1ceee3980565"
+    },
+    {
+      "path": "B/.cardenal/prompts/relevamiento.md",
+      "sha256": "762462a1d26885367e1037ac9cea013e6651dc572896181d64171a307c7b63ac"
+    },
+    {
+      "path": "B/.cardenal/prompts/repositorio.md",
+      "sha256": "d37d1cdcdaa7b4c6556cdd080c750a3b8ca69a22572779690047712eb6cd7234"
+    },
+    {
+      "path": "B/.cardenal/prompts/seleccion-roles.md",
+      "sha256": "5d8e8ad1e269825f29d97be67aa2fe5849c32bd9a2c34345812935a0f071369e"
+    },
+    {
+      "path": "B/.cardenal/prompts/verificacion.md",
+      "sha256": "19175680df291a881f747b5f230545bc6bc477816055aff5edc9536204a02bda"
+    },
+    {
+      "path": "B/.cardenal/team.md",
+      "sha256": "a054d2f96358e02abb2926c43722a49e5014691f33e366bf51acdbb64a439849"
+    },
+    {
+      "path": "B/.cardenal/team.mjs",
+      "sha256": "93f0716e3fe163c5655f5c9d019b19743c44be762beb3fcdb1e172753cea9982"
+    },
+    {
+      "path": "B/.cardenal/templates/SKILL.md",
+      "sha256": "31493cbd5a53ea4ca6011b64a3c73d0b3687b55db7ad14c6ecc2a5b707d203b3"
+    },
+    {
+      "path": "B/.cardenal/templates/context-guide.md",
+      "sha256": "cbb335b4ea76605fed4624c2d62a14dc452b23d67597dd15a10459cce25638c9"
+    },
+    {
+      "path": "B/.cardenal/templates/feature.md",
+      "sha256": "d47ca3f213cd1309e004656ab249411f1a711932cee241881783bb04ef341dad"
+    },
+    {
+      "path": "B/.cardenal/templates/ficha-mvp-del-equipo.md",
+      "sha256": "b0fd8b8b39d9ae1fbd78850918b2c26c508c782e47aac466d30db820157ee7a5"
+    },
+    {
+      "path": "B/.cardenal/templates/inicializate.md",
+      "sha256": "1f1b14463cd97011a3f34f35128060926c90b12fc8216747a0efc22fd070e674"
+    },
+    {
+      "path": "B/.cardenal/templates/prompts/cierre.md",
+      "sha256": "75520b50c17535eeae7a47ddeca7b81625e625fe1d7853ecb5ac0c1fe19d070b"
+    },
+    {
+      "path": "B/.cardenal/templates/prompts/implementacion.md",
+      "sha256": "92ad50d5478354f64221b32f24dc037fc86c0d7bc114a5cd39bf1ceee3980565"
+    },
+    {
+      "path": "B/.cardenal/templates/prompts/relevamiento.md",
+      "sha256": "762462a1d26885367e1037ac9cea013e6651dc572896181d64171a307c7b63ac"
+    },
+    {
+      "path": "B/.cardenal/templates/prompts/repositorio.md",
+      "sha256": "d37d1cdcdaa7b4c6556cdd080c750a3b8ca69a22572779690047712eb6cd7234"
+    },
+    {
+      "path": "B/.cardenal/templates/prompts/seleccion-roles.md",
+      "sha256": "5d8e8ad1e269825f29d97be67aa2fe5849c32bd9a2c34345812935a0f071369e"
+    },
+    {
+      "path": "B/.cardenal/templates/prompts/verificacion.md",
+      "sha256": "19175680df291a881f747b5f230545bc6bc477816055aff5edc9536204a02bda"
+    },
+    {
+      "path": "B/.cardenal/templates/schemas/cardenal/schema.yaml",
+      "sha256": "62eb2a8bf7a2b95683121eb0e2dfbe0c9cb2ce0d9e57e4b5453c922291033630"
+    },
+    {
+      "path": "B/.cardenal/templates/schemas/cardenal/templates/design.md",
+      "sha256": "f2f9de72c881570614e4bcc52bd6838c6acc38f9c23274b6627961e2f3fd8a49"
+    },
+    {
+      "path": "B/.cardenal/templates/schemas/cardenal/templates/proposal.md",
+      "sha256": "04b5e71361eb9a55fdb93aad15b8c183f0f7607717fbf02bd2b07ad9a11998fc"
+    },
+    {
+      "path": "B/.cardenal/templates/schemas/cardenal/templates/spec.md",
+      "sha256": "e44aa66c2690fbdeb074087345e82e3f91c879357b79c83054bf54a706d6ff6f"
+    },
+    {
+      "path": "B/.cardenal/templates/schemas/cardenal/templates/tasks.md",
+      "sha256": "5f8829eed167a629169c30444d6412f5c7f657cf514927fb56a4ddcaac93fae2"
+    },
+    {
+      "path": "B/.cardenal/templates/team.md",
+      "sha256": "a054d2f96358e02abb2926c43722a49e5014691f33e366bf51acdbb64a439849"
+    },
+    {
+      "path": "B/.cardenal/usage.mjs",
+      "sha256": "c004aecdb3576c6d7369c27d0d53224d1659eba04571a5e522e8081e60e03497"
+    },
+    {
+      "path": "B/.claude/skills/cardenal-relevar/SKILL.md",
+      "sha256": "31493cbd5a53ea4ca6011b64a3c73d0b3687b55db7ad14c6ecc2a5b707d203b3"
+    },
+    {
+      "path": "B/.claude/skills/feature/SKILL.md",
+      "sha256": "d47ca3f213cd1309e004656ab249411f1a711932cee241881783bb04ef341dad"
+    },
+    {
+      "path": "B/.claude/skills/inicializate/SKILL.md",
+      "sha256": "1f1b14463cd97011a3f34f35128060926c90b12fc8216747a0efc22fd070e674"
+    },
+    {
+      "path": "B/.github/copilot-instructions.md",
+      "sha256": "423f3df2f3c2a60f2de67267447563e00e49d86d726952899f1fa3ffaf92371f"
+    },
+    {
+      "path": "B/.github/skills/feature/SKILL.md",
+      "sha256": "d47ca3f213cd1309e004656ab249411f1a711932cee241881783bb04ef341dad"
+    },
+    {
+      "path": "B/.github/skills/inicializate/SKILL.md",
+      "sha256": "1f1b14463cd97011a3f34f35128060926c90b12fc8216747a0efc22fd070e674"
+    },
+    {
+      "path": "B/AGENTS.md",
+      "sha256": "b940ae008e244640fa07c0c6a2b79b283c1f851f4ecb363976ec474cecc6ba6f"
+    },
+    {
+      "path": "B/CARDENAL.md",
+      "sha256": "e20745afdd5c88349c5105215ba1421c7163c03f49cce7da56736346131573d8"
+    },
+    {
+      "path": "B/CLAUDE.md",
+      "sha256": "f219bcb7a261c3a6e2179940a1a8f7f20f5dc4fdde5206fc0a78cd2516d94caa"
+    },
+    {
+      "path": "README.md",
+      "sha256": "30566787b3fe03bce1fba019d941f553e5a24ea0dc917469b57682f433632e93"
+    },
+    {
+      "path": "verify-release.mjs",
+      "sha256": "94915af5d6e3c4d9316ec52a4279f21b2e2a7193cf15d0c63e1d563637119ca4"
+    }
+  ]
+}

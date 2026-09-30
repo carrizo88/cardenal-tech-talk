@@ -1,0 +1,10 @@
+node_modules/
+.local/
+doc/private/
+.env
+.env.*
+*.log
+coverage/
+.claude/settings.local.json
+.claude/agent-memory-local/
+user-memory/

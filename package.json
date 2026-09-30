@@ -1,0 +1,15 @@
+{
+  "name": "cardenal",
+  "version": "0.7.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "cardenal": "node src/cli.mjs",
+    "release:build": "node scripts/build-release.mjs",
+    "release:verify": "node release/verify-release.mjs"
+  }
+}

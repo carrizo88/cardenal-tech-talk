@@ -1,0 +1,54 @@
+name: cardenal
+version: 1
+description: Feature con contexto confirmado, valor, evidencia y preguntas explícitas
+artifacts:
+  - id: proposal
+    generates: proposal.md
+    description: Necesidad, valor, alcance y capacidades afectadas
+    template: proposal.md
+    instruction: |
+      Usar decisiones y fuentes de .cardenal/context.json sin copiarlas completas.
+      Resolver dudas que cambien alcance antes de avanzar. Identificar capacidades nuevas
+      y existentes por su ruta exacta en openspec/specs. No inventar beneficios medidos.
+    requires: []
+  - id: specs
+    generates: "specs/**/*.md"
+    description: Deltas de comportamiento observable y escenarios
+    template: spec.md
+    instruction: |
+      Crear un delta por capacidad de la propuesta, conservando su ruta.
+      Usar ADDED, MODIFIED, REMOVED o RENAMED Requirements según corresponda.
+      Cada Requirement contiene SHALL o MUST y al menos un Scenario con WHEN/THEN.
+      MODIFIED incluye el requisito completo con todos sus escenarios vigentes.
+      REMOVED incluye Reason y Migration; RENAMED usa FROM y TO.
+      Añadir Purpose de al menos 50 caracteres solo para capacidades nuevas.
+      No traducir los encabezados estructurales ni inventar reglas pendientes.
+    requires: [proposal]
+  - id: design
+    generates: design.md
+    description: Decisiones técnicas proporcionales al cambio
+    template: design.md
+    instruction: |
+      Enlazar propuesta y specs sin repetirlas. Fundamentar decisiones con código observado.
+      Si el cambio es pequeño, documentar brevemente el patrón existente que se mantiene.
+      Resolver preguntas que alteren comportamiento, arquitectura o tareas antes de continuar.
+    requires: [proposal]
+  - id: tasks
+    generates: tasks.md
+    description: Trabajo verificable y ordenado por dependencias
+    template: tasks.md
+    instruction: |
+      Cada tarea usa - [ ] N.M e incluye su verificación y referencia a escenario o decisión.
+      Relacionar con tarjetas y roles ya acordados, sin inventar un segundo equipo.
+      Incluir checks técnicos pertinentes y pasos manuales para el usuario, que es team lead.
+      QA automatizado y navegador solo por pedido para esta feature; no asignar agentes lead/infra.
+      Actualizar Markdown del producto en doc/public y técnica/dependencies en doc/tech y sus índices.
+      Incluir check final humano explícito antes de cerrar, incluso con QA automatizado.
+      No marcar una tarea completa sin evidencia real ni dejar bloqueos ocultos.
+    requires: [specs, design]
+apply:
+  requires: [tasks]
+  tracks: tasks.md
+  instruction: |
+    Seguir .cardenal/prompts/implementacion.md para la etapa activa.
+    Detener el trabajo dependiente si aparecen dudas. Verificar antes de marcar tareas.
